@@ -15,7 +15,7 @@ from torchvision import transforms, datasets, models
 from models import FinetuneModel
 
 def args_parse():
-	parser = argparse.ArgumentParser(description="Train a Garbage Classifier")
+	parser = argparse.ArgumentParser(description="Train a Classifier by Pytorch")
 	parser.add_argument('-dataset', type=str, required=True)
 	parser.add_argument('-tr_pth', type=str, default='../data/imgs/train')
 	parser.add_argument('-val_pth', type=str, default='../data/imgs/val')
